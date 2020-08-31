@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+header{
+    background: #FFCFF3;
+}
+body{
+    font-family: 'Patrick Hand', cursive;
+}
+
+/* MENU */
+
+.navbar-collapse{
+    justify-content: center;
+}
+
+.navbar-nav a{
+    font-size: 20px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link{
+    color: #cc0099;
+} 
+
+.navbar-light .navbar-nav .active > .nav-link:hover{
+    color: #73b7ff;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #cc0099;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #73b7ff;
+}
+
+header .menu-fijo{
+    position: fixed;
+    z-index: 50;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* SECCIONUNO */
+
+.seccionuno{
+    position: relative;
+    margin: 0 auto;
+    padding: 95px 0px;
+}
+
+.seccionuno h2{
+    padding: 30px 0px 0px 0px;
+    font-size: 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.seccionuno .row{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.seccionuno .col-md-6 img{
+    max-width: 80%;
+    margin: 20px 20px;
+
+}
+
+.seccionuno .col-md-6 p{
+    margin: 0 auto;
+    padding: 0px 35px;
+}
+
+.seccionuno .row-2{
+    display: flex;
+    width: 80%;
+}
+
+.seccionuno .col-md-6 .fondo{
+    background-color: rgba(255, 255, 255, 0.815);
+    position: relative;
+    width: 105%;
+    max-width: 0 auto;
+
+}
+
+.seccionuno .col-md-4{
+    padding: 0px 5px;
+}
+ 
+@media screen and (max-width:500px) and (min-width:360px) {
+    .seccionuno .row-2{
+        display: grid;
+    }
+    .seccionuno .col-md-4 p{
+        margin-top: 0px;
+    }
+}
+
+/* ESTUDIOS */
+
+#estudios{
+    background: url(file:///C:/Users/Tatiana/Desktop/Portafolio/img/fondo.png);
+    margin: 0 auto;
+    padding: 189px 0px;
+    background-repeat: no-repeat;
+}
+
+#estudios h2{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+
+#estudios .circulo p{
+    margin: 10px 30px;
+}
+
+#estudios .circulo {
+    background-color: rgba(255, 255, 255, 0.6);
+    position: relative;
+    margin: -136px 0px 0px -1px;
+    width: 91%;
+    height: 164%;
+    border-radius: 70%;
+}
+
+#estudios .row{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#estudios .row-2{
+    display: flex;
+    justify-content: center;
+}
+
+#estudios .row-2 img{
+    width: 100%;
+}
+
+#estudios .row-3{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 61px;
+}
+
+#estudios .row-3 p{
+    text-align: center;
+}
+
+@media screen and (max-width:500px) and (min-width:360px) {
+    #estudios .row-2{
+        display: grid;
+        justify-content: center;
+    }
+
+    #estudios .row-3{
+        display: grid;
+        justify-content: center;
+    }
+
+    #estudios .col-md-4{
+        margin: 10px 0px;
+    }
+
+    #estudios{
+        background: url(file:///C:/Users/Tatiana/Desktop/Portafolio/img/fondo2.png);
+        background-repeat: no-repeat;
+        padding: 0;
+        margin: 0 auto;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #estudios .circulo{
+        width: 99%;
+        height: 95%;
+        margin: 30px 0px;
+    }
+
+}
+/* TRABAJOS */
+
+#trabajos{
+    background: #FFCFF3;
+    width: 100%;
+    position: relative;
+    padding: 47px 0px;
+}
+
+#trabajos .row{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+#trabajos .rectangulo{
+    background-color: rgba(255, 255, 255, 0.6);
+    position: relative;
+    margin: 0 auto;
+    width: 16%;
+    padding: 10px 5px;
+    margin-bottom: 15px;
+}
+
+#trabajos h2{
+    text-align: center;
+    font-size: 30px;
+}
+.carousel-trabajos .item-trb{
+    width: 50%;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.carousel-trabajos .item-trb img{
+    max-width: 100%;
+}
+
+@media screen and (max-width:500px) and (min-width:360px) {
+    #trabajos .rectangulo{
+        width: 50%;
+    }
+}
